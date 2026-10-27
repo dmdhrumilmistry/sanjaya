@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sanjaya-handoff"
+version = "0.1.0"
+description = "Hand Claude session context and tasks to another session, device or account."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{ name = "Dhrumil Mistry" }]
+keywords = ["claude", "claude-code", "handoff", "context", "llm", "agents"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Environment :: Console",
+  "Topic :: Software Development",
+]
+
+[project.scripts]
+sanjaya = "sanjaya.cli:main"
+
+[tool.setuptools]
+packages = ["sanjaya"]
+
+[tool.setuptools.package-data]
+sanjaya = ["commands/*.md"]
