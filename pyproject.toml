@@ -25,3 +25,7 @@ packages = ["sanjaya"]
 
 [tool.setuptools.package-data]
 sanjaya = ["commands/*.md"]
+
+[project.urls]
+Homepage = "https://github.com/dmdhrumilmistry/sanjaya"
+Issues = "https://github.com/dmdhrumilmistry/sanjaya/issues"

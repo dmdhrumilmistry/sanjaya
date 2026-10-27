@@ -29,7 +29,7 @@ account, a teammate's machine, a cloud session, or a plain claude.ai chat window
 Requires Python 3.9+. No dependencies.
 
 ```bash
-pipx install git+https://github.com/<you>/sanjaya    # or: pip install --user .
+pipx install git+https://github.com/dmdhrumilmistry/sanjaya    # or: pip install --user .
 sanjaya install-commands                              # adds /handoff and /takeover to Claude Code
 ```
 
